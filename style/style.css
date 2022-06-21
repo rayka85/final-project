@@ -1,9 +1,80 @@
-body{
-    margin: 5px;
-    background-color: blanchedalmond;
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+ *,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    margin: 10% 10%;
-    font-weight: bold;
+
+
+
+nav {
+    display: block;
+    margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  
 }
+header{
+    
+    padding-left: 30%;
+    
+}
+header h2{
+    font-family: 'Great Vibes', cursive;
+    float:left;
+    display: inline-block;
+    padding: 13px 0px 10px 10px;
+}
+header img{
+    float: left;
+    display: inline-block;
+}
+
+
+
+ul {
+    border-radius: ;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding-left: 40%;
+    overflow: hidden;
+    background-color:#ffffff;
+    list-style-type: none;
+}
+
+/*ul {
+    list-style-type: none;
+    margin: 0 45%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    
+  }*/
+  
+  li {
+    float:left;
+    border-left: 1px solid black;
+  } 
+  #right-border{
+    border-right: 1px solid black;
+  }
+  
+  li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    
+  }
+
+  #section{
+      display: inline-block;
+      padding: 4%;
+  }
+
+ 
