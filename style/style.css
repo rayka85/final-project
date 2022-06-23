@@ -50,7 +50,7 @@ ul {
 
 li {
   float:left;
-  border-left: 1px solid black;
+  border-left: 2px solid black;
 } 
 #right-border{
   border-right: 1px solid black;
@@ -108,21 +108,25 @@ header img{
 
 #con2 img{
   width: 100%; 
+
   
   }
 
 #con3{
     order:2;
     flex-grow: 3;
+ /*    position: absolute;
+    right: 0px;
+    top: 0px; */
   }
   #social{
-    margin-right: 0px;
+  
   }
 
 #con3 p{
   color: darkslateblue;
 }
-#con2,#con3{
+#con2,/* #con3 */{
   display: flex;
   /* height: 30%; */
   /* display: flexbox; */
