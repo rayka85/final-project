@@ -1,3 +1,4 @@
+/* last edit */
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
@@ -378,8 +379,17 @@ font-family: 'Poppins', sans-serif;
   }
 
   @media screen and (max-width: 450px) {
+
+    nav ul{
+      position: relative;
+      padding-top: 5%;
+      padding-left: 17%;
+      display: flex;
+      float: left;
+    }
     .header {
       position: relative;
+      padding-left: 3%;
       left: 0;
       top: 10px;
     }
@@ -390,7 +400,24 @@ font-family: 'Poppins', sans-serif;
       margin-top: 50px;
       margin-left: 5px;
     }
-    
+    .listcontact{
+      position: relative;
+      padding-top: 4%;
+      padding-bottom: 4%;
+      float: left;
+      display: flex;
+     
+    }
+    .a-listing h2{
+      padding-left: 3%;
+      display: block;
+      float: left;
+   }
+   .a-listing p{
+     display: block;
+     float: left;
+   }
+  
 
   }
 
