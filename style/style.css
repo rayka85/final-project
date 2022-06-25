@@ -216,6 +216,9 @@ footer{
   float: left;
 
 }
+#on{
+  display: none;
+}
 footer div{
   display: inline-block;
 }
@@ -350,6 +353,9 @@ font-family: 'Poppins', sans-serif;
 
   .container {
     flex-direction: column;
+  }
+  #on{
+    display: block;
   }
 
 /* contact form query */
