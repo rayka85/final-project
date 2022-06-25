@@ -377,6 +377,23 @@ font-family: 'Poppins', sans-serif;
   /* contact form query */
   }
 
+  @media screen and (max-width: 450px) {
+    .header {
+      position: relative;
+      left: 0;
+      top: 10px;
+    }
+    .header img, h2 {
+      float: left;
+      
+      position: relative;
+      margin-top: 50px;
+      margin-left: 5px;
+    }
+    
+
+  }
+
 
   /* MEDIA QUERY ------------------ */
 
@@ -396,8 +413,3 @@ font-family: 'Poppins', sans-serif;
       height: 3em;
     }
   }
-
- 
-
-
- 
