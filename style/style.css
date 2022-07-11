@@ -231,7 +231,7 @@ footer div{
 
 /* start contact page ------------------------------*/
 .cf-body{
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .c-article {
@@ -275,18 +275,30 @@ font-family: 'Poppins', sans-serif;
   margin: 4px 2px;
   cursor: pointer;
 }
-.cf input,textarea{
+ input,textarea{
   width: 30%;
-  height: 3em;
+  height: 3em; 
 }
 #cf-textarea{
   height: 6em;
+}
+.display-block{
+  display: block;
+}
+
+.inline *{
+  display: flex;
 }
 .cf p {
   margin: 7px;
 }
 .cfp{
   padding-left: 4.2%;
+}
+
+#spn{
+ display: flex;
+  
 }
 
 
@@ -360,18 +372,47 @@ font-family: 'Poppins', sans-serif;
   }
 
 /* contact form query */
+.c-article h2{
+  font-size: 1.3em;
+
+}
 
 .cf{
   padding-top: 10%;
-}
-  .c-article h2{
-    font-size: 1.3em;
-
+  position: relative;
+  left: 0px;
+  clear: both;
+  width: 100%;
   }
+.display-block{width: 100%;}
 
-  .cf input,textarea{
-  width: 60%;
+label{
+  width: 20%;
+}
+  input,textarea {
+  width: 70%;
   height: 3em;
+  float: right;
+  padding-top: 5px;
+  position: relative;
+  right: 3px;
+  
+  }
+  
+textarea{
+  position: absolute;
+  right: 10px;
+}
+
+.cf p{
+  padding-left: 0%;
+  height: 3em;
+}
+button{
+position: relative;
+top:30px;
+left: 25%;
+
 }
 
 
@@ -416,6 +457,9 @@ font-family: 'Poppins', sans-serif;
    .a-listing p{
      display: block;
      float: left;
+   }
+   .on{
+     display: block;
    }
   
 
