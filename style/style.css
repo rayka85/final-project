@@ -461,7 +461,10 @@ left: 25%;
    .on{
      display: block;
    }
-  
+   .cf button{
+     position: relative;
+     left: 10px;
+   }
 
   }
 
