@@ -258,14 +258,11 @@ font-family: 'Poppins', sans-serif;
 /* contact form here */
 
 
-
-.cf{
+.contactform{
   position: relative;
-  top: 5%;
-  left: 35%;
-  margin-top: 5%;
-  
+  left: 0%;
 }
+
 .cf button{
   background-color: #04AA6D;
   border: none;
